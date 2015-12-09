@@ -1,0 +1,21 @@
+{
+	"name": "esports/doctrine-fixtures",
+	"description": "Doctrine fixtures command",
+	"homepage": "https://github.com/pt24/doctrine-fixtures",
+	"authors": [
+		{
+			"name": "eSports",
+			"homepage": "http://www.esports.cz"
+		}
+	],
+	"require": {
+		"symfony/console" : "~2.6|~3.0",
+		"doctrine/dbal": "~2.0",
+		"doctrine/data-fixtures": "~1.1"
+	},
+	"autoload": {
+		"psr-4": {
+            "Esports\\Doctrine\\Fixtures\\": "src/"
+        }
+	}
+}

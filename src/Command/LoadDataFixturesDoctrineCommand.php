@@ -104,7 +104,7 @@ EOT
 			$paths = $this->paths;
 		}
 
-		$loader = new DataFixturesLoader($this->getContainer());
+		$loader = new DataFixturesLoader();
 		foreach ($paths as $path) {
 			if (is_dir($path)) {
 				$loader->loadFromDirectory($path);

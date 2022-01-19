@@ -1,3 +1,3 @@
 # esports/doctrine-fixtures #
 
-Doctrine fixtures command
+A Symfony CLI command to load [Doctrine fixtures](https://github.com/doctrine/data-fixtures)
